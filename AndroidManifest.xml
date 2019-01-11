@@ -23,5 +23,8 @@
             </intent-filter>
         </activity>
     </application>
-
+    <permission android:name="android.permission.DEVICE_POWER"/>   
+        <uses-permission android:name="android.permission.DEVICE_POWER" />
+        <permission android:name="android.permission.REBOOT"/>
+        <uses-permission android:name="android.permission.REBOOT"/>
 </manifest>
